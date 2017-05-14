@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:paddingTop="50dp"
+    android:paddingBottom="50dp"
+    android:weightSum="2"
+    tools:context="com.example.tlstk.myapplication.MainActivity">
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="264dp"
+        android:layout_height="292dp"
+        android:background="@drawable/tamago" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:text="click 10 times !!!"
+        android:textSize="33dp"
+        android:textAlignment="center"
+        android:gravity="center"
+
+        android:layout_width="264dp"
+        android:layout_height="80dp" />
+
+    <Button
+        android:id="@+id/button2"
+        android:text="Restart"
+        android:textSize="23dp"
+        android:textAlignment="center"
+        android:gravity="center"
+        android:layout_width="130dp"
+        android:layout_height="60dp" />
+
+</LinearLayout>
